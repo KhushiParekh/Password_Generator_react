@@ -94,11 +94,11 @@ function App() {
             <label >Length ({length})</label>
           </div>
           <div className='flex items-center pt-3 gap-x-1'>
-            <input type="checkbox" Checked={numAllowed} id='numsinput' onChange={(e)=> {setNumAllowed((prev)=>!prev)}} />
+            <input type="checkbox" checked={numAllowed} id='numsinput' onChange={(e)=> {setNumAllowed((prev)=>!prev)}} />
             <label htmlFor="numsinput">Numbers</label>
           </div>
           <div className='flex items-center pt-3 gap-x-1'>
-            <input type="checkbox" Checked={numAllowed} id='charsinput' onChange={(e)=> {setCharAllowed((prev)=>!prev)}} />
+            <input type="checkbox" checked={numAllowed} id='charsinput' onChange={(e)=> {setCharAllowed((prev)=>!prev)}} />
             <label htmlFor="charsinput">Special Charaters</label>
           </div>
         </div>
